@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- This contains the background image and everything -->
+    <div class="container">
+        <!-- This is the card which contains all the elements -->
+        <div class="card">
+            <p>Random quotes useful for people</p>
+            <div class="quotes-container">
+                <h1 id="quote"></h1>
+                <h3 id="author"></h3>
+            </div>
+            <div class="btn">
+                <button onclick="generate()" class="button">Generate Quote</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

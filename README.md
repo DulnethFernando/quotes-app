@@ -1,1 +1,2 @@
 # quotes-app
+This app is a random quotes generator app which doesn't use any api's. My orginal plan was to use an api but then I realized it was much easier to deploy and also I can add my own quotes to the dictionary. Basically how this works is there is a dictionary with the author and the quote. it selects a random author and the quote of the author. That is diplayed on the screen. This is a really simple project.
